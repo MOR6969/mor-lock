@@ -31,6 +31,6 @@ local seconds = math.random(9,12)
 local circles = math.random(1,3)
 local success = exports['mor-lock']:StartLockPickCircle(circles, seconds, success)
 if success then
-QBCore.Functions.Notify(" Success", "success")
+print("WIN")
 end
 ```
